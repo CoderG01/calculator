@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(245, 218, 218);
+}
+
+form {
+    width: 600px;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    height: auto;
+    background-color: rgba(156, 92, 92, 0.034);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0px 1px 29px -1px rgb(197, 176, 176);
+    position: absolute;
+    top: -700px;
+    transition: 0.4s all;
+}
+
+form input {
+    outline: none;
+    border: none;
+}
+
+.display {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    user-select: none;
+}
+
+input[type=text] {
+    width: 64%;
+    height: 60px;
+    border-radius: 20px;
+    font-size: 20px;
+    text-align: center;
+    user-select: none;
+    border-radius: 10px;
+    background: rgb(255, 255, 255);
+    box-shadow: 1px 1px 11px 0px rgb(197, 176, 176);
+    margin-top: 30px;
+}
+
+input[type=button] {
+    height: 40px;
+    width: 120px;
+    font-size: 20px;
+    margin: 5px;
+    background-color: rgb(79, 245, 245);
+    border-radius: 30px;
+    background-color: whitesmoke;
+    border: 2px solid whitesmoke;
+    box-shadow: 1px 1px 11px 0px rgb(197, 176, 176);
+    color: rgb(85, 69, 69);
+}
+
+input[type=button]:hover {
+    box-shadow: 1px 1px 11px 0px rgb(197, 176, 176);
+}
+
+.buttons {
+    width: 100%;
+    height: auto;
+}
+
+#btn_div {
+    width: 90%;
+    height: 40px;
+    margin-top: 20px;
+}
+
+.clearbtn_div {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5%;
+    margin-top: 2%;
+}
+
+.clear_btn {
+    width: 90%;
+}
+
+p {
+    font-size: 30px;
+    text-decoration: underline;
+    color: rgb(146, 124, 124);
+    margin-top: 20px;
+}
+
+.fa-times {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 30px;
+    color: rgb(197, 176, 176);
+}
+
+.home_btn button {
+    width: 200px;
+    height: 60px;
+    font-size: 20px;
+    font-weight: bolder;
+    background-color: rgb(246, 234, 234);
+    border: none;
+    color: rgb(139, 120, 120);
+    box-shadow: 1px 2px 22px 6px rgb(197 176 176);
+    border-radius: 15px;
+}
